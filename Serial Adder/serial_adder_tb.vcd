@@ -1,0 +1,238 @@
+$date
+	Sat Jul 05 16:06:00 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module serial_adder_tb $end
+$var wire 4 ! result [3:0] $end
+$var parameter 32 " T $end
+$var parameter 32 # bit $end
+$var reg 4 $ I_A [3:0] $end
+$var reg 4 % I_B [3:0] $end
+$var reg 1 & clk $end
+$var reg 1 ' ctrl $end
+$scope module uut $end
+$var wire 4 ( I_A [3:0] $end
+$var wire 4 ) I_B [3:0] $end
+$var wire 1 & clk $end
+$var wire 1 ' ctrl $end
+$var wire 4 * result [3:0] $end
+$var parameter 32 + bit $end
+$var reg 4 , Q_next_A [3:0] $end
+$var reg 4 - Q_next_B [3:0] $end
+$var reg 1 . Q_next_D $end
+$var reg 4 / Q_reg_A [3:0] $end
+$var reg 4 0 Q_reg_B [3:0] $end
+$var reg 1 1 Q_reg_D $end
+$var reg 1 2 carry_out $end
+$var reg 1 3 sum $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b100 +
+b100 #
+b10100 "
+$end
+#0
+$dumpvars
+03
+02
+01
+b110 0
+b100 /
+0.
+b110 -
+b100 ,
+b100 *
+b110 )
+b100 (
+0'
+0&
+b110 %
+b100 $
+b100 !
+$end
+#10000
+b11 -
+b10 ,
+1'
+1&
+#20000
+0&
+#30000
+b1 -
+b1001 ,
+13
+b11 0
+b10 !
+b10 *
+b10 /
+1&
+#40000
+0&
+#50000
+b0 -
+b100 ,
+1.
+12
+03
+b1 0
+b1001 !
+b1001 *
+b1001 /
+1&
+#60000
+0&
+#70000
+b1010 ,
+0.
+02
+13
+11
+b0 0
+b100 !
+b100 *
+b100 /
+1&
+#80000
+0&
+#90000
+03
+01
+b1010 !
+b1010 *
+b1010 /
+b111 -
+b1110 ,
+b111 %
+b111 )
+b1110 $
+b1110 (
+0'
+1&
+#100000
+0&
+#110000
+13
+b111 0
+b1110 !
+b1110 *
+b1110 /
+b11 -
+b1111 ,
+1'
+1&
+#120000
+0&
+#130000
+b1 -
+b111 ,
+1.
+12
+03
+b11 0
+b1111 !
+b1111 *
+b1111 /
+1&
+#140000
+0&
+#150000
+b0 -
+b1011 ,
+13
+11
+b1 0
+b111 !
+b111 *
+b111 /
+1&
+#160000
+0&
+#170000
+b101 ,
+03
+b0 0
+b1011 !
+b1011 *
+b1011 /
+1&
+#180000
+0&
+#190000
+b10 ,
+b101 !
+b101 *
+b101 /
+1&
+#200000
+0&
+#210000
+0.
+02
+01
+b10 !
+b10 *
+b10 /
+b110 -
+b1001 ,
+b110 %
+b110 )
+b1001 $
+b1001 (
+0'
+1&
+#220000
+0&
+#230000
+13
+b110 0
+b1001 !
+b1001 *
+b1001 /
+b11 -
+b1100 ,
+1'
+1&
+#240000
+0&
+#250000
+b1 -
+b1110 ,
+b11 0
+b1100 !
+b1100 *
+b1100 /
+1&
+#260000
+0&
+#270000
+b0 -
+b1111 ,
+b1 0
+b1110 !
+b1110 *
+b1110 /
+1&
+#280000
+0&
+#290000
+b0 0
+b1111 !
+b1111 *
+b1111 /
+1&
+#300000
+0&
+#310000
+1&
+#320000
+0&
+#330000
+1&
